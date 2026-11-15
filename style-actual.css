@@ -10,22 +10,39 @@ nav{
     color: white;
     text-align: left;
 }
+.contactme h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    
+}
+.verde h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    
+}
 .verde{
     background-color: #1abc9c;
     color: white;
+}
+.container h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
 }
 .about,
 .about a,
 nav a {
     font-family: 'Montserrat', sans-serif;
-  color: #fff;
+  color: white;
   text-decoration: none;
   
 }
 .texto h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 90px;
+    font-size: 60px;
     text-align: center;
 }   
 .text-center about{
