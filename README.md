@@ -8,8 +8,8 @@ La página se adapta a celular, tablet y computador.
 
 ## Enlaces
 
- Sitio publicado: []
- Repositorio: []
+ Sitio publicado: [https://yesgrap-cyber.github.io/bootstrap/]
+ Repositorio: [https://github.com/yesgrap-cyber/bootstrap]
 
 ## Secciones de la página
 
