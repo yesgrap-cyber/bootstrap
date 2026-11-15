@@ -1,7 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+:root{
+  --fuente-principal: 'Montserrat', sans-serif;
+  --color-nav: rgb(44, 62, 80);
+  --color-texto: #fff;
+}
 nav{
     background-color: rgb(44 62 80 / 1);
     color: white;
     text-align: left;
+}
+.about,
+.about a,
+nav a {
+    font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-decoration: none;
+  
+}
+.texto h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    text-align: center;
+}   
+.text-center about{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.navbar-biblio .nav-link{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.navbar-biblio .nav-link:hover{
+    background-color: #1abc9c;
+    border-radius: 5px;
+    color: white;
+}
+.ms-auto{ 
+    color: white;
 }
 .boostrap{
     background-color: #1abc9c;
