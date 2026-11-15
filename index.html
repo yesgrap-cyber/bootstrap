@@ -95,7 +95,7 @@
             </div>
         </div>
     </section>
-    <section id="about" class="mt-5" ; margin-bottom: 10px;">
+    <section id="about" class="about mt-5" ; margin-bottom: 10px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -140,39 +140,63 @@
                     <h2 class="text-center titulo-portafolio"
                         style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 48px; ">CONTACT
                         ME</h2>
-                    <img src="img/Screenshot From 2026-10-28 20-33-06.png" alt="estrella" class="d-block mx-auto">
+                    <img src="img/Screenshot From 2026-10-28 20-33-06.png" alt="estrella" class="d-block mx-auto mb-5">
                 </div>
             </div>
         </div>
         <section>
             <div class="container">
-                <form id="formContacto">
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
 
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="nombre" placeholder="Full name" required>
-                        <label for="nombre">Full name</label>
+                        <form id="formContacto">
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="nombre" placeholder="Full name" required>
+                                <label for="nombre">Full name</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="correo" placeholder="Email address"
+                                    required>
+                                <label for="correo">Email address</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input type="tel" class="form-control" id="telefono" placeholder="Phone number"
+                                    required>
+                                <label for="telefono">Phone number</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="mensaje" placeholder="Message" style="height: 150px"
+                                    required></textarea>
+                                <label for="mensaje">Message</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-success btn-lg">Send</button>
+                        </form>
                     </div>
-
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="correo" placeholder="Email address" required>
-                        <label for="correo">Email address</label>
-                    </div>
-
-                    <div class="form-floating mb-3">
-                        <input type="tel" class="form-control" id="telefono" placeholder="Phone number" required>
-                        <label for="telefono">Phone number</label>
-                    </div>
-
-                    <div class="form-floating mb-3">
-                        <textarea class="form-control" id="mensaje" placeholder="Message" style="height: 150px"
-                            required></textarea>
-                        <label for="mensaje">Message</label>
-                    </div>
-
-                    <button type="submit" class="btn btn-success btn-lg">Send</button>
-                </form>
+                </div>
             </div>
         </section>
+        <footer>
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <h3>Location</h3>
+                        <p>&copy; 2024 Your Company. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>&copy; 2024 Your Company. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>&copy; 2024 Your Company. All rights reserved.</p>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
 
 
 
